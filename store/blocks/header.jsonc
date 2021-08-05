@@ -78,7 +78,7 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#headerbuscador",
       "rich-text#misPedidos",
-      "login",      
+      "login",
       "minicart.v2"
     ]
   },
@@ -3026,7 +3026,7 @@
     },
     "children": [
       "flex-layout.row#contacto",
-      "rich-text#localizador",
+      "modal-trigger#1localizador",
       "flex-layout.col#search-bar"
     ]
   },
@@ -3040,8 +3040,7 @@
     },
     "children": [
       "rich-text#contacto1",
-      "rich-text#contacto2",
-      "location-context"
+      "rich-text#contacto2"
     ]
   },
 
@@ -3075,6 +3074,24 @@
       "blockClass": "localizador"
     }
   },
+  "modal-trigger#1localizador": {
+    "children": [
+      "rich-text#localizador",
+      "modal-layout#1localizador"
+    ]
+  },
+
+  "modal-layout#1localizador": {
+    "children": [
+      "location-context"
+      // "rich-text#modal-content"
+    ]
+  },
+  // "rich-text#modal-content": {
+  //   "props": {
+  //     "text": "Hello"
+  //   }
+  // },
   //******************* prueba location avalinsjns *******************
     "location-context": {
         "children": [
