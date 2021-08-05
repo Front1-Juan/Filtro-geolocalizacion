@@ -3083,6 +3083,7 @@
 
   "modal-layout#1localizador": {
     "children": [
+      "modal-header",
       "location-context"
       // "rich-text#modal-content"
     ]

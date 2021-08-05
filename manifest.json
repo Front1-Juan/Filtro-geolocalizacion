@@ -13,7 +13,8 @@
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "2.x",
-    "vtex.location-availability": "0.x"
+    "vtex.location-availability": "0.x",
+    "vtex.shopper-location": "1.x"
   },
   "dependencies": {
     "vtex.store": "2.x",
@@ -61,8 +62,7 @@
     "vtex.store-form": "0.x",
     "vtex.disclosure-layout": "1.x",
     "vtex.store-newsletter": "1.x",
-    "vtex.sandbox": "0.x",
-    "vtex.shopper-location": "1.x"
+    "vtex.sandbox": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
