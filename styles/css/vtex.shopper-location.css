@@ -1,0 +1,3 @@
+.changeLocationSubmitContainer :global(.vtex-button__label){ 
+     background-color: red;
+}

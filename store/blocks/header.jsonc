@@ -3117,7 +3117,8 @@
       "shopper-location": {
         "children": ["modal-trigger#address"],
         "props": {
-          "autofill": ["city", "country", "neighborhood", "number", "postalCode", "state", "street"]
+          "autofill": ["city", "country", "neighborhood", "number", "postalCode", "state", "street"],
+          "blockClass": "shoper-1"
         }
       },
       "modal-trigger#address": {
@@ -3158,7 +3159,8 @@
           "postalCode": "first",
           "autocomplete": true,
           "notRequired": ["street", "number", "city", "state"],
-          "hideFields": ["complement", "neighborhood", "receiverName", "reference"]
+          "hideFields": ["complement", "neighborhood", "receiverName", "reference"],
+          "blockClass": "shoper-2"
         }
       }
       // **********************shopper location***************************************
