@@ -12,6 +12,7 @@
     "shelf.relatedProducts#1",
     "rich-text#product2",
     "shelf.relatedProducts#2"
+    //"product-availability"
   ]
 },
 "breadcrumb": {
@@ -587,5 +588,15 @@
         "blockClass":"bannerM"
       }
     }
+
+    // producto prueba availability
+    // "product-availability": {
+    //   "component": "ProductAvailability",
+    //   "props": {
+    //     "threshold": "10",
+    //     "lowStockMessage": "Only {quantity} left!",
+    //     "highStockMessage": "Item in stock!"
+    //   }
+    // }
 
 }
