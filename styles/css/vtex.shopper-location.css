@@ -1,3 +1,56 @@
-.changeLocationSubmitContainer :global(.vtex-button__label){ 
+/* .changeLocationSubmitContainer :global(.vtex-button__label){ 
      background-color: red;
+} */
+
+
+.changeLocationGeoContainer--shopper-location13 :global(.vtex-button){
+     color: #151515;
+     border: 2px solid #151515!important;
+     padding: 8px 0px !important;
+
 }
+
+.changeLocationSubmitContainer--shopper-location13 :global(.vtex-button){
+     color: #151515;
+     border: 2px solid #151515!important;
+     padding: 8px 0px !important;
+
+}
+
+.changeLocationGeoContainer--shopper-location13:hover :global(.vtex-button){
+     /* color: #536162; */
+    color: white;
+    background-color: #151515 !important;
+
+  
+
+}
+
+.changeLocationSubmitContainer--shopper-location13:hover :global(.vtex-button){
+     color: white;
+     background-color: #151515 !important;
+
+}
+
+/*******************************/
+.addressInputContainer--shopper-location13 :global(.vtex-input__label){
+     color: #151515 !important;
+     font-size: inherit;
+     font-weight: 500;
+}
+
+.addressInputContainer--shopper-location13 :global(.vtex-dropdown__label){
+     color: #151515 !important;
+     font-size: inherit;
+     font-weight: 500;
+}
+
+
+/* .addressInputContainer--shopper-location13 :global(.vtex-dropdown__container:last-child)
+{
+ 
+     color: #151515;
+     border: 2px solid #151515!important;
+     
+} */
+

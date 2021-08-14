@@ -1,0 +1,37 @@
+/**estilos geolocalizador**/
+.triggerContainer--shopper-location3 {
+    padding: 10px 10px;
+    background-color: #FFD371;
+    
+}
+
+
+.triggerContainer--shopper-location3:hover {
+
+    color: #536162;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+
+.headerContent--shopper-location9 {
+    padding-top: 16px;
+    margin-bottom: 0px;
+    padding-left: 21px;
+    padding-bottom: 6px;
+}
+
+.paperScrollContent .triggerContainer--shopper-location3 {
+    /* font-size: 18px; */
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+.headerContainer {
+    padding: 0;
+    margin: 0;
+    background-color: #FFD371;
+}

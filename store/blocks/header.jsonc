@@ -3098,31 +3098,44 @@
         "children": [
           "modal-trigger#location-availability",
           "flex-layout.row#location-availability"
-        ]
+        ],
+        "props": {
+          "blockClass": "shopper-location1"
+        }
       },
       "flex-layout.row#location-availability": {
         "children": [
           "product-location-pickup-options",
           "product-location-shipping-options"
-        ]
+        ],
+        "props": {
+          "blockClass": "shopper-location2"
+        }
       },
       "modal-trigger#location-availability": {
-        "children": ["product-location-availability-header", "modal-layout#address"]
+        "children": ["product-location-availability-header", "modal-layout#address"],
+        "props": {
+          "blockClass": "shopper-location3"
+        }
       },
       "product-location-availability-header": {
         "props": {
-          "styleAsLink": true
+          "styleAsLink": true,
+          "blockClass": "shopper-location4"
         }
       },
       "shopper-location": {
         "children": ["modal-trigger#address"],
         "props": {
           "autofill": ["city", "country", "neighborhood", "number", "postalCode", "state", "street"],
-          "blockClass": "shoper-1"
+          "blockClass": "shopper-location5"
         }
       },
       "modal-trigger#address": {
-        "children": ["user-address", "modal-layout#address"]
+        "children": ["user-address", "modal-layout#address"],
+        "props": {
+          "blockClass": "shopper-location6"
+        }
       },
       "user-address": {
         "props": {
@@ -3131,28 +3144,40 @@
           "showCityAndState": true,
           "showPostalCode": true,
           "showPrefix": false,
-          "showIfEmpty": true
+          "showIfEmpty": true,
+          "blockClass": "shopper-location7"
         }
       },
       "modal-layout#address": {
-        "children": ["modal-header#address", "modal-content#address"]
+        "children": ["modal-header#address", "modal-content#address"],
+        "props": {
+          "blockClass": "shopper-location8"
+        }
       },
       "modal-header#address": {
-        "children": ["flex-layout.col#address-header"]
+        "children": ["flex-layout.col#address-header"],
+        "props": {
+          "blockClass": "shopper-location9"
+        }
       },
       "flex-layout.col#address-header": {
         "children": ["rich-text#address-header"],
         "props": {
-          "paddingLeft": 5
+          "paddingLeft": 5,
+          "blockClass": "shopper-location10"
         }
       },
       "rich-text#address-header": {
         "props": {
-          "text": "### Change Location"
+          "text": "### Change Location",
+          "blockClass": "shopper-location11"
         }
       },
       "modal-content#address": {
-        "children": ["change-location"]
+        "children": ["change-location"],
+        "props": {
+          "blockClass": "shopper-location12"
+        }
       },
       "change-location": {
         "props":{
@@ -3160,7 +3185,7 @@
           "autocomplete": true,
           "notRequired": ["street", "number", "city", "state"],
           "hideFields": ["complement", "neighborhood", "receiverName", "reference"],
-          "blockClass": "shoper-2"
+          "blockClass": "shopper-location13"
         }
       }
       // **********************shopper location***************************************

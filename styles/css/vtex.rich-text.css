@@ -741,3 +741,16 @@
 .wrapper--tabChat3 {
     display: flex;
 }
+
+/*estilos geolocalizador**/
+
+.headingLevel3--shopper-location11::before {
+  content: "Por favor ingresa tu ubicación";
+  font-size: 21px;
+  padding-bottom: 3px;
+}
+
+.headingLevel3--shopper-location11 {
+    font-size: 0;
+}
+/**/
